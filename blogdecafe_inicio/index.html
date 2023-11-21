@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogDeCafé</title>
+    <meta name="description" content="Página web de blog de café">
+    
+    <!-- Prefetch -->
+    <link rel="Prefetch" href="cursos.html" as="document">
+      
+    <!-- Preload -->
+    <link rel="Preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="Preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" crossorigin="crossorigin" as="fonts">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="Preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+
+            </div>
+        </div> 
+
+        <div class="header__texto">
+            <h2 class="no-margin">Blog de café con consejos y cursos</h2>
+            <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos</p>
+        </div> 
+
+    </header>
+
+    <div class="contenedor contenido-principal">
+
+        <main class="blog">
+            <h3>Nuestro Blog</h3>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy" srcset="blogdecafe_inicio/img/blog1.webp" type="image/webp">
+                        <img loading="lazy" src="blogdecafe_inicio/img/blog1.jpg" alt="imagen Blog" >
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Tipos de Granos de Café</h4>
+                    <p>¡Conoce todas las variedades de los tipos de café en grano! Vamos a presentarte las diferentes tipologías que existen, entre las que encontramos algunos ejemplos tan conocidos como el café arábica, el robusta, el moka o el java, entre otros. ¡Sigue leyendo!</p>
+                    <a href="entradasblog-1.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy" srcset="blogdecafe_inicio/img/blog2.webp" type="image/webp">
+                        <img loading="lazy" src="blogdecafe_inicio/img/blog2.jpg" alt="imagen Blog" >
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">3 Deliciosas Recetas de Café</h4>
+                    <p>No hay nada más apetecible y reconfortante que disfrutar de un delicioso café calentito, en tu rincón favorito de la casa.
+                    En este post, te traemos 3 recetas para preparar tu café caliente. Con pocos ingredientes y con unos sencillos pasos, tendrás un café diferente para cada día.</p>
+                    <a href="entradasblog-2.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy" srcset="blogdecafe_inicio/img/blog3.webp" type="image/webp">
+                        <img loading="lazy" src="blogdecafe_inicio/img/blog3.jpg" alt="imagen Blog" >
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Beneficios del Café</h4>
+                    <p>El café, una de las bebidas más consumidas en el mundo, ha sido investigada por numerosos estudios científicos. Los últimos estudios llevados a cabo ratifican que el consumo moderado de café tiene beneficios para la salud que van más allá de su capacidad estimulante de la cafeína. Es cierto que algunos de los beneficios del café son debidos a la cafeína, pero el café contiene muchos otros nutrientes y componentes por lo que también el café descafeinado tiene beneficios.</p>
+                    <a href="entradasblog-3.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+            </article>
+        </main>
+
+        <aside class="sidebar">
+            <h3>Nuestros Cursos y Talleres</h3>
+
+            <ul class="cursos no-padding">
+                <li class="whidget-curso">
+                    <h4 class="no-margin">Técnicas de Extracción de Café</h4>
+
+                    <p class="whidget-curso__label">Precio: <span class="whidget-curso__info">Gratis</span>
+                    </p>
+
+                    <p class="whidget-curso__label">Cupos: <span class="whidget-curso__info">20</span>
+                    </p>
+
+                    <a href="cursos.html" class="boton boton--secundario">Más información</a>
+                </li>
+
+                <li class="whidget-curso">
+                    <h4 class="no-margin">4 Recetas de Café para principiantes</h4>
+
+                    <p class="whidget-curso__label">Precio: <span class="whidget-curso__info">Gratis</span>
+                    </p>
+
+                    <p class="whidget-curso__label">Cupos: <span class="whidget-curso__info">20</span>
+                    </p>
+
+                    <a href="cursos.html" class="boton boton--secundario">Más información</a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+        
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/modernizr.js"></script>
+</body>
+</html>
